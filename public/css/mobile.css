@@ -1,0 +1,105 @@
+main {
+   margin: 0 auto;
+   margin-top: 60px;
+   max-width: ;
+}
+
+h1, h3 {
+   text-align: center;
+}
+
+.center {
+   text-align: center;
+}
+
+.btn.question, .btn.sign-off, form {
+   float: right;
+}
+
+.btn-check.question {
+   background-color: #ff4136 !important;
+   border-color: #ff4136 !important;
+   color: #fff !important;
+}
+
+.btn-check.active.question {
+   background-color: #28b62c !important;
+   border-color: #28b62c !important;
+   color: #fff !important;
+}
+
+.btn-check.active.question:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e013";
+}
+
+.btn-check.question:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e014";
+}
+
+.btn-check.active.sign-off {
+   background-color: #337ab7 !important;
+   border-color: #337ab7 !important;
+   color: #fff !important;
+}
+
+.btn-check.active.sign-off:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e013";
+   color: #fff;
+}
+
+.btn-check.sign-off:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e014";
+   color: #c0c0c0;
+}
+
+.btn-check.sign-off {
+   background: #c0c0c0;
+}
+
+.btn.large {
+   width: 100%;
+}
+
+
+.col-xs-6, .col-xs-12 {
+   padding: 10px 0 0 0;
+}
+
+#checkTable tr td {
+   vertical-align: middle;
+}
+
+#checkTable tr td:nth-child(4), #checkTable tr td:nth-child(5) {
+   text-align: center;
+   vertical-align: center;
+}
+
+#checkTable button {
+   width: 100%;
+}
+
+.navbar-brand {
+   padding: 7px !important;
+}
+
+#pagination {
+   margin: 0 auto;
+}
+
+
+#checkTable td.info, #checkTable td.success, #checkTable td.danger {
+	text-align: center;
+	vertical-align: center;
+}
+
+@media (max-width: 767px) {
+  ul.navbar-nav {
+    position: absolute;
+    right: 25px;
+    top: -3px;
+  }
+}

@@ -1,0 +1,39 @@
+main {
+	margin: 0 auto;
+	margin-top: 60px;
+	padding: 10px;
+	max-width: 90%;
+}
+
+#checkTable tr td {
+	vertical-align: middle;
+}
+
+#checkTable td.info, #checkTable td.success, #checkTable td.danger {
+	text-align: center;
+	vertical-align: center;
+}
+
+#checkTable button {
+	width: 100%;
+}
+
+.navbar-brand {
+	padding: 7px !important;
+}
+
+.table-hover td {
+   cursor: pointer;
+}
+
+td:has(> button) {
+   text-align: center;
+}
+
+.panel-default {
+   border-top: 1px solid #e7e7e7 !important;
+}
+
+input[name=reg] {
+   text-transform: uppercase;
+}
