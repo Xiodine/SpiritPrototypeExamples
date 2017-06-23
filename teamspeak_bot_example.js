@@ -11,19 +11,6 @@ config.locked = false;
 
 config.bannedWords = [
 	"anne", "inngur", "gore",
-	"dead", "gay", "tinyurl", "tiny.cc",
-	"goo.gl", "is.gd", "bitly", "ow.ly",
-	"bit.do", "app.x.co", "miniurl.com",
-	"tr.im", "shortn.me", "Annie",
-	"umbris.jpearce.net", ".li/pics/", "whip",
-	"akk.li", "harryjames", "2guys", "lolhello.com",
-	"cock", "blowjob", "Blowjob", "wormgush", "bottleguy",
-	"1pitcher", "lemonparty", "nobrain", "fruitlauncher.com",
-	"goatse", "merryholidays.org", "vomit", "selfpwn",
-	"3guys1hammer", "painolympics", "phonejapan.com",
-	"bowlgirl", "jarsquatter", "tubgirl", "specialfriedrice",
-	"bluewaffle", "blue-waffle", "blue_waffle", "mikeisgod",
-	"bestshockers", "goat.cx", "meatspin", ">", "<", "%3C"
 ]
 
 config.formatters = [
